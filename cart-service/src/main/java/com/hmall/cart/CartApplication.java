@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 /**
  * @author Ballauma
  */
-@EnableFeignClients
+@EnableFeignClients(basePackages = "com.hmall.api.client")
 @MapperScan("com.hmall.cart.mapper")
 @SpringBootApplication
 public class CartApplication {
