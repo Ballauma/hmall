@@ -3,6 +3,8 @@ server:
 feign:
   okhttp:
     enabled: true # 开启 OKHttp 功能
+  sentinel:
+    enabled: true # 开启 Sentinel 功能
 hm:
   db:
     database: hm-cart
